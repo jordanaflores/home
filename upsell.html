@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espere! Seu pedido ainda não está completo | Jordana Flores</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .upsell-header {
+            background-color: var(--secondary);
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .upsell-alert {
+            background-color: #ffcc00; /* Attention Yellow */
+            color: #333;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .upsell-main {
+            max-width: 800px;
+            margin: 40px auto 60px auto;
+            padding: 0 20px;
+        }
+
+        .upsell-title {
+            font-size: 2.8rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        .upsell-subtitle {
+            font-size: 1.4rem;
+            color: var(--secondary);
+            margin-bottom: 40px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .video-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background-color: #eee;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+            border: 2px dashed #ccc;
+            color: #888;
+        }
+
+        .upsell-text {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-main);
+            margin-bottom: 30px;
+        }
+
+        .upsell-text strong {
+            color: var(--secondary);
+            font-weight: 700;
+        }
+        
+        .highlight-text {
+            background-color: var(--accent);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .offer-box {
+            background-color: var(--bg-off);
+            border: 3px solid var(--primary);
+            padding: 40px;
+            margin: 50px 0;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(255, 45, 85, 0.1);
+        }
+
+        .offer-box h3 {
+            color: var(--secondary);
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .price-tag {
+            font-size: 3.5rem;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 20px 0;
+            display: block;
+        }
+
+        .action-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        .btn-yes {
+            background-color: #25D366; /* Green for positive action */
+            color: white;
+            font-size: 1.3rem;
+            padding: 20px 40px;
+            width: 100%;
+            max-width: 500px;
+            border: none;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1.2;
+        }
+        
+        .btn-yes span {
+            font-size: 0.9rem;
+            font-weight: 400;
+            margin-top: 5px;
+            opacity: 0.9;
+        }
+
+        .btn-yes:hover {
+            background-color: #1ebc59;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
+
+        .btn-no {
+            color: var(--text-light);
+            text-decoration: underline;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .btn-no:hover {
+            color: var(--primary);
+        }
+
+        .guarantee {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="upsell-alert">
+        ⚠️ ATENÇÃO: ESPERE! SEU PEDIDO AINDA NÃO ESTÁ COMPLETO ⚠️
+    </div>
+
+    <header class="upsell-header">
+        <div class="container">
+            <div class="logo" style="color: white; font-size: 1.8rem;">JORDANA <span>FLORES</span></div>
+        </div>
+    </header>
+
+    <main class="upsell-main">
+        
+        <h1 class="upsell-title">Não feche esta página!</h1>
+        <p class="upsell-subtitle">Você acaba de dar o primeiro passo, mas falta uma peça crucial para o seu sucesso no Instagram.</p>
+
+        <!-- Placeholder para um possível VSL (Video Sales Letter) -->
+        <div class="video-placeholder">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+            </svg>
+            <p style="margin-top: 15px;">Assista a este vídeo rápido de 2 minutos</p>
+        </div>
+
+        <div class="upsell-text">
+            <p>Primeiramente, parabéns pela sua decisão! Você já garantiu acesso a um material incrível que vai mudar a sua visão sobre o mercado.</p>
+            <p>Mas, antes de finalizar o seu pedido e te enviar o acesso, eu preciso te fazer uma única pergunta:</p>
+            <p style="font-size: 1.3rem; text-align: center; margin: 30px 0;"><strong>Você quer acelerar seus resultados e transformar seguidores em clientes fiéis 3x mais rápido?</strong></p>
+        </div>
+
+        <div class="upsell-text">
+            <p>Muitas pessoas estudam estratégias, conhecem a moda, sabem muito sobre estética... mas quando abrem o Instagram, ficam paralisadas. Não sabem o que postar nos Stories, têm vergonha de aparecer e os posts no feed não passam de 50 curtidas (sendo 10 de parentes).</p>
+            <p>Eu vejo isso acontecer todos os dias. É por isso que criei o <span class="highlight-text">Instagram Magnético para Moda e Beleza</span>.</p>
+        </div>
+
+        <div class="upsell-text">
+            <h3>O que é o Instagram Magnético?</h3>
+            <p>Não é mais um curso de "apertar botões". É um método de posicionamento. Neste treinamento complementar, eu abro a caixa preta de como eu estruturo meus Stories para vender todos os dias, como criar um Feed esteticamente premium sem ser designer, e como ativar o desejo inconsciente da sua audiência.</p>
+            <ul style="list-style-type: none; padding-left: 0; margin-top: 20px;">
+                <li style="margin-bottom: 15px;">🔥 <strong>Roteiros Prontos de Stories:</strong> Copie, cole e venda.</li>
+                <li style="margin-bottom: 15px;">🔥 <strong>O Segredo do Feed Premium:</strong> Posicionamento de alto valor.</li>
+                <li style="margin-bottom: 15px;">🔥 <strong>Ativação de Audiência:</strong> Transforme seguidores fantasmas em fãs que compram.</li>
+            </ul>
+        </div>
+
+        <div class="offer-box">
+            <h3>A Oferta Única</h3>
+            <p>Este treinamento é vendido separadamente por R$ 297,00. Mas, como você já tomou a decisão de investir no seu crescimento hoje, eu quero te fazer uma proposta irrecusável.</p>
+            <p>Apenas nesta página, agora, você pode adicionar o <strong>Instagram Magnético para Moda e Beleza</strong> ao seu pedido por apenas:</p>
+            
+            <span class="price-tag">R$ 97,00</span>
+            
+            <p style="font-size: 0.9rem; color: #666;">(Essa oferta não será mostrada novamente)</p>
+
+            <div class="action-buttons">
+                <!-- YES BUTTON -->
+                <a href="https://pay.kiwify.com.br/UyRDrkc" class="btn btn-yes">
+                    SIM! QUERO ADICIONAR AO MEU PEDIDO
+                    <span>(Adicionar por apenas R$ 97)</span>
+                </a>
+
+                <!-- NO BUTTON -->
+                <!-- The href '#' is a placeholder until the user provides the specific "No Thanks" link -->
+                <a href="#" class="btn-no">
+                    Não, obrigado. Eu prefiro descobrir tudo sozinho(a) e demorar meses para ter resultados.
+                </a>
+            </div>
+
+            <div class="guarantee">
+                🔒 Risco Zero: 7 dias de garantia incondicional
+            </div>
+        </div>
+
+    </main>
+
+    <footer style="background-color: var(--secondary); padding: 40px 0; color: rgba(255,255,255,0.7); text-align: center; font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2026 Jordana Flores. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
