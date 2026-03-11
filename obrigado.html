@@ -11,11 +11,13 @@
             background-color: var(--secondary);
             padding: 15px 0;
             text-align: center;
+            position: relative; /* Overrides global position: fixed from header tag */
+            z-index: 1000;
         }
 
         .thankyou-main {
             max-width: 800px;
-            margin: 60px auto;
+            margin: 120px auto 60px auto;
             padding: 0 20px;
             text-align: center;
             min-height: 60vh;
